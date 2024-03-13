@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treinando adaptação de imagens</title>
+</head>
+<body>
+    <h1>adaptação de imagens</h1>
+    <p>a imagem tem que mudar de acordo com o tamanha do dispositivo/navegador</p>
+    <picture>
+        <source media="(max-width:900px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width:1150px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagem grande">
+    </picture>
+</body>
+</html>
