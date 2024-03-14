@@ -19,6 +19,9 @@ body{
 
 header{
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
+   padding-right: 1px;
+   padding-left: 1px;
+   padding-right: 1px;
    
    padding-top: 40px;
    min-height: 150px;
@@ -54,6 +57,10 @@ nav{
 }
 nav > a{
     color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
     text-decoration: none;
     padding: 10px;
     font-weight: bold;
@@ -65,12 +72,13 @@ nav > a:hover{
     border-radius: 15px;
     margin-bottom: auto;
     color: #063d1e;
+
 }
 main{
     text-align: justify;
     padding-top: 20px;
     margin-bottom: 60px;
-    margin-left: 40%;
+    margin-left: 30px;
     
     
 }
