@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+   <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    table{
+        width: 500px;
+        border-collapse: collapse;
+        position: relative;
+    }
+    thead > tr > th{
+
+        position: sticky;
+        top: -1px;
+        background-color:rgb(128, 128, 128);
+    }
+    td, th{
+        border: 1px solid black;
+        padding: 8px;
+    }
+    tbody > tr:nth-child(2n){
+        background-color: rgba(128, 128, 128, 0.208)
+    }
+    thead, tfoot{
+        background-color: rgb(128, 128, 128);
+        color: white;
+    }
+    td.num{
+        text-align: right;
+    }
+   </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+
+    <table>
+        <caption>População das Unidades Federativas</caption>
+       <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+       </thead>
+
+       <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 991 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 873 064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">744 433 333</td>
+            </tr>
+            <tr>
+                <td>Pernanbuco</td>
+                <td class="num">749 773 289</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">444 54 23</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">444 645 223</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">337 488 939</td>
+            </tr>
+       </tbody>
+
+       <tfoot>
+        <th>Total de Habitantes</th>
+        <td>148 890 475</td>
+        
+       </tfoot>
+    </table>
+
+</body>
+</html>
