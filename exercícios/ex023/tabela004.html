@@ -32,14 +32,14 @@
         <caption>Tabela de treinamento</caption>
         <thead>
             <tr>
-                <th>Grupo</th>
-                <th>Nomes</th>
-                <th colspan="3">Filmes</th>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="3">Mulheres</th>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
                 <td>Ana Maria Santos</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -58,7 +58,7 @@
                 <td>Gladiador</td>
             </tr>
             <tr>
-                <th rowspan="3">Homens</th>
+                <th rowspan="3" scope="rowgroup">Homens</th>
                 <td>Buno mendonça</td>
                 <td>Intocáveis</td>
                 <td>Matrix</td>
@@ -77,6 +77,12 @@
                 <td>Toy Story</td>
             </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
     </table>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, dolore ab? Accusantium, natus laboriosam eum magnam assumenda exercitationem optio impedit libero eveniet dolor laudantium unde. Vitae voluptatem excepturi sint molestias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur culpa, explicabo laboriosam, obcaecati ipsum distinctio pariatur cum facilis consectetur perspiciatis, quibusdam iure et neque eos quo quia quis iste dicta. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae harum sunt quod accusantium, quas illum labore eveniet provident molestias quis magni explicabo tempora dignissimos autem quae ut optio, pariatur accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nisi repellat a facilis doloremque molestias ex, tempora magni inventore, excepturi omnis deserunt iste sit architecto vero quo est laboriosam? Dolor.</p>
 </body>
